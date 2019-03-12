@@ -5,10 +5,7 @@
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "monaca:preview": "ionic-app-scripts serve & ionic-app-scripts watch",
-        "monaca:transpile": "ionic-app-scripts build",
-        "monaca:debug": "ionic-app-scripts watch"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
@@ -25,8 +22,5 @@
             "android",
             "ios"
         ]
-    },
-    "devDependencies": {
-        "cordova": "^7.1.0"
     }
 }
